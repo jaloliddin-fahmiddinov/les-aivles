@@ -11,6 +11,8 @@ ul {
 
 a {
     text-decoration: none;
+   color: black;
+    
 }
 
 .container {
@@ -18,3 +20,63 @@ a {
     margin: 0 auto;
 }
 
+/* Header styles */
+header{
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(121 , 118, 118);    
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul{
+    display: flex;
+    gap: 40px;
+}
+
+header .logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+header .logo a{
+    color: white;
+    background-color: #fc004a;
+    padding: 10px 60px;
+    border-radius: 15px;
+}
+
+header ul a{
+    color: black;
+}
+
+header ul a:hover{
+    color: #fc004a;
+    transform: scale(1.1);
+    display: block;
+}
+
+
+/* intro styles */
+.intro{
+    margin-top: 40px;
+}
+
+.intro img{
+    width: 100%;
+}
+
+
+/* combos styles */
+
+.set h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.set .combos{
+    flex-wrap: wrap;
+    display: flex;
+}
